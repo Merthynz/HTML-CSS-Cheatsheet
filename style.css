@@ -1,0 +1,38 @@
+header {
+  font-family: arial, Verdana, Geneva, Tahoma, sans-serif;
+  color: #111111;
+  text-align: center;
+  margin-top: 5px;
+}
+body {
+  font-family: arial, Verdana, Geneva, Tahoma, sans-serif;
+  color: #111111;
+}
+
+table {
+  width: 1000px;
+  margin: 20px auto
+}
+
+th, td {
+  padding: 10px 15px 15px 15px;
+}
+
+th {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 90%;
+  border-bottom: 2px solid #111111;
+  border-top: 1px solid #999;
+  text-align: center;
+  background-color: #afb4ff;
+}
+
+tr.even {
+  background-color: #b1e1ff;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 5px;
+}
