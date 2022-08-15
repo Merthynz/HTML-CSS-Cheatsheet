@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HTML CSS Cheatsheet</title>
+    <title>HTML Cheatsheet</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
   </head>
     <header>
-      <h1>HTML CSS Cheatsheet</h1>
+      <h1>HTML Cheatsheet</h1>
     </header>
 
     <body>
@@ -15,50 +15,226 @@
       <table>
         <thead>
           <tr>
-            <th scope="col">Tag</th>
             <th scope="col">Element</th>
             <th scope="col">Description</th>
           </tr>
           <tr>
             <td>&lt;a&gt;</td>
-            <td>anchor</td>
-            <td>Used to create hyperlinks in an HTML document.</td>
+            <td>Creates a link to another page or to a location in the current page.</td>
           </tr>
           <tr class="even">
-            <td>&lt;article&gt;</td>
-            <td>article</td>
-            <td>Acts as a container for any section of a page that could stand alone and potentially be syndicated.</td>
+            <td>&lt;abbr&gt;</td>
+            <td>Indicates an acronym or abbreviation of a longer word or phrase.</td>
           </tr>
           <tr>
-            <td>&lt;aside&gt;</td>
-            <td>aside</td>
-            <td>Has two purposes depending on whether it is inside an &lt;article&gt; element or not. When used inside an &lt;article&gt; element, it should contain information that is related to the article but not essential to its overall meaning. When used outside of an &lt;article&gt; element, it acts as a container for content that is related to the entire page.</td>
+            <td>&lt;acronym&gt;</td>
+            <td>Creates text that will be displayed when hovered over.</td>
           </tr>
           <tr class="even">
+            <td>&lt;applet&gt;</td>
+            <td>Used to embed Java applets in HTML documents but is no longer supported.</td>
+          </tr>
+          <tr>
             <td>&lt;audio&gt;</td>
-            <td>audio</td>
-            <td>Embeds an audio player for audio playback.</td>
-          </tr>
-          <tr>
-            <td>&lt;body&gt;</td>
-            <td>body</td>
-            <td>Indicates that anything between it and the closing &lt;/body&gt; tag should be shown inside the main browser window.</td>
+            <td>Represents an interface for adding audio content to the page.</td>
           </tr>
           <tr class="even">
-            <td>&lt;div&gt;</td>
-            <td>div</td>
-            <td>Allows you to group a set of elements together in one black-level box.</td>
+            <td>&lt;b&gt;</td>
+            <td>Used to draw attention to a section of text, usually rendered in boldface.</td>
           </tr>
           <tr>
-            <td>&lt;em&gt;</td>
-            <td>emphasize</td>
-            <td>indicates emphasis that subtly changes the meaning of a sentence.</td>
-          </tr>        
+            <td>&lt;basefont&gt;</td>
+            <td>Used to be used to set the font of text. This is now deprecated.</td>
+          </tr>
+          <tr class="even">
+            <td>&lt;blink&gt;</td>
+            <td>Used to make text flash on and off and is now obsolete, deprecated, and non-standard.</td>
+          </tr>
         </thead>
+        <tr>
+          <td>&lt;blockquote&gt;</td>
+          <td>Represents a section of a document which contains a longer quotation, usually spanning multiple lines.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;br&gt;</td>
+          <td>Represents a break in text. It is used when text needs to span multiple lines rather than being in-line, such as in an address.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;button&gt;</td>
+          <td>Represents a button meant to be clicked by the user.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;canvas&gt;</td>
+          <td>Creates graphics and animations in the page for JavaScript and WebGL to interact with.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;center&gt;</td>
+          <td>Displays its contents centered horizontally in the containing element. This is now deprecated and CSS should be used instead.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;cite&gt;</td>
+          <td>Represents a citation to a referenced work such as a book, a song, or a painting.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;code&gt;</td>
+          <td>Represents source code contained in the text.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;dd&gt;</td>
+          <td>Describes details found inside a &lt;dl&gt; element. It usually comes with at least one corresponding &lt;dt&gt; term tag..</td>
+        </tr>                     
+        <tr>
+          <td>&lt;div&gt;</td>
+          <td>Represents a generic division of content. It has no semantic meaning, but will separate its contents from the rest of the document.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;dl&gt;</td>
+          <td>Displays terms and details, commonly for metadata purposes.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;dt&gt;</td>
+          <td>Describes a term found inside a &lt;dl&gt; tag. It usually comes with at least one corresponding &lt;dd&gt; details tag..</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;em&gt;</td>
+          <td>Represents text which is emphasized. Browsers will show the enclosed text in italics, by default.".</td>
+        </tr>                     
+        <tr>
+          <td>&lt;embed&gt;</td>
+          <td>
+            Inserts external content such as a video, image, page, and more.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;font&gt;</td>
+          <td>Used to be used to set the font characteristics of a text. This is now deprecated.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;form&gt;</td>
+          <td>Represents an interface to collect and submit user supplied information. This can include open ended text inputs, radio buttons, calendar information, and more.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;h1&gt; - &lt;h6&gt;</td>
+          <td>Represents a text heading for a section of content, with &lt;h1&gt; being the highest level of heading and &lt;h6&gt; being the lowest.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;head&gt;</td>
+          <td>Represents a collection of metadata related to the current document. It is an immediate child of the `&lt;html&gt;` element and may include other tags such as &lt;title&gt;, &lt;link&gt;, &lt;style&gt;, and &lt;script&gt;.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;html&gt;</td>
+          <td>Represents the entire HTML document.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;i&gt;</td>
+          <td>Used to set off HTML text for some reason, as idiomatic, technical, taxonomical and so on. Typically rendered as italic.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;iframe&gt;</td>
+          <td>Represents a container used to embed a second web page inside the current one. It can be used for content from the same domain as the parent, or even from a second domain.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;img&gt;</td>
+          <td>Displays an image on the web page.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;input&gt;</td>
+          <td>Creates an interactive element, usually used within a form to allow user input. It can be used to make text boxes, color pickers, date pickers, and other UI elements.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;kbd&gt;</td>
+          <td>Emphasizes characters to look like keys on a keyboard.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;li&gt;</td>
+          <td>Represents a single item in a list of items. It and the other list items must be wrapped in an &lt;ol&gt;, &lt;ul&gt;, or &lt;menu&gt; tag.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;link&gt;</td>
+          <td>Connects the current page with an external file.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;menu&gt;</td>
+          <td>Represents an unordered list of items with more semantic meaning than a regular ul element.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;meta&gt;</td>
+          <td>Represents an interface to provide metadata pertaining to the document. Metadata is data that is used to describe the document that contains it.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;noscript&gt;</td>
+          <td>Displays content within if Javascript is disabled in the browser or not supported.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;object&gt;</td>
+          <td>Represents an external resource such as an image, a nested browsing context, or content to be handled by a browser plugin.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;ol&gt;</td>
+          <td>Represents an ordered list of items.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;option&gt;</td>
+          <td>Represents one option in a dropdown created by the select tag.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;output&gt;</td>
+          <td>Displays the result of a calculation or user action.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;param&gt;</td>
+          <td>Used to pass parameters to a resource defined in an object tag.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;picture&gt;</td>
+          <td>Represents multiple possible image sources to be applied to different devices and screen-sizes.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;q&gt;</td>
+          <td>Used to represent a brief inline quotation.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;script&gt;</td>
+          <td>
+            Used to insert runnable code into a document, usually JavaScript. Can be used both to include a script within the HTML document, or to load an external script from another source.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;select&gt;</td>
+          <td>Creates a drop-down list for the user to select from a number of option elements.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;source&gt;</td>
+          <td>Represents an interface for adding source content to the page.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;span&gt;</td>
+          <td>Used for grouping related text or elements for styling and scripting.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;strong&gt;</td>
+          <td>Used to identify text that is very important, or urgent.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;table&gt;</td>
+          <td>Represents an interface for adding tabular data to the page. Tables are two dimensional, made up of rows and columns, and can contain many types of content.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;u&gt;</td>
+          <td>Used to display HTML text with a non-textual annotation. The default rendering of this is a solid underline.</td>
+        </tr>                     
+        <tr>
+          <td>&lt;ul&gt;</td>
+          <td>Represents an unordered list of items.</td>
+        </tr>
+        <tr class="even">
+          <td>&lt;video&gt;</td>
+          <td>Represents an interface for adding video content to the page.</td>
+        </tr>                     
+                           
       </table>
     </div>
-    <div>
-      <h2>Updating....</h2>
-    </div> 
+    
   </body>
+  <footer>
+    
+  </footer>
 </html>

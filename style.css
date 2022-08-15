@@ -3,10 +3,13 @@ header {
   color: #111111;
   text-align: center;
   margin-top: 5px;
+  background-color: #afb4ff;
+  padding: 40px;
 }
 body {
   font-family: arial, Verdana, Geneva, Tahoma, sans-serif;
   color: #111111;
+  padding: 20px;
 }
 
 table {
@@ -34,5 +37,10 @@ tr.even {
 
 h2 {
   text-align: center;
-  margin-top: 5px;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+
+footer {
+  padding-top: 30px;
 }
